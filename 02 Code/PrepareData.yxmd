@@ -1,0 +1,191 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.0">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\daniele.parenti\Dropbox\R\SpeedWall\01 Data\1450096020_altimeter.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>1450096020_altimeter.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="timestamp" size="254" source="File: C:\Users\daniele.parenti\Dropbox\R\SpeedWall\01 Data\1450096020_altimeter.csv" type="V_String" />
+            <Field name="relativeAltitude" size="254" source="File: C:\Users\daniele.parenti\Dropbox\R\SpeedWall\01 Data\1450096020_altimeter.csv" type="V_String" />
+            <Field name="pressure" size="254" source="File: C:\Users\daniele.parenti\Dropbox\R\SpeedWall\01 Data\1450096020_altimeter.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\daniele.parenti\Dropbox\R\SpeedWall\01 Data\1450096020_gyroscope.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>1450096020_gyroscope.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="timestamp" size="254" source="File: C:\Users\daniele.parenti\Dropbox\R\SpeedWall\01 Data\1450096020_gyroscope.csv" type="V_String" />
+            <Field name="x" size="254" source="File: C:\Users\daniele.parenti\Dropbox\R\SpeedWall\01 Data\1450096020_gyroscope.csv" type="V_String" />
+            <Field name="y" size="254" source="File: C:\Users\daniele.parenti\Dropbox\R\SpeedWall\01 Data\1450096020_gyroscope.csv" type="V_String" />
+            <Field name="z" size="254" source="File: C:\Users\daniele.parenti\Dropbox\R\SpeedWall\01 Data\1450096020_gyroscope.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\daniele.parenti\Dropbox\R\SpeedWall\01 Data\1450096020_location.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>1450096020_location.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="timestamp" size="254" source="File: C:\Users\daniele.parenti\Dropbox\R\SpeedWall\01 Data\1450096020_location.csv" type="V_String" />
+            <Field name="latitude" size="254" source="File: C:\Users\daniele.parenti\Dropbox\R\SpeedWall\01 Data\1450096020_location.csv" type="V_String" />
+            <Field name="longitude" size="254" source="File: C:\Users\daniele.parenti\Dropbox\R\SpeedWall\01 Data\1450096020_location.csv" type="V_String" />
+            <Field name="hacc" size="254" source="File: C:\Users\daniele.parenti\Dropbox\R\SpeedWall\01 Data\1450096020_location.csv" type="V_String" />
+            <Field name="altitude" size="254" source="File: C:\Users\daniele.parenti\Dropbox\R\SpeedWall\01 Data\1450096020_location.csv" type="V_String" />
+            <Field name="vacc" size="254" source="File: C:\Users\daniele.parenti\Dropbox\R\SpeedWall\01 Data\1450096020_location.csv" type="V_String" />
+            <Field name="speed" size="254" source="File: C:\Users\daniele.parenti\Dropbox\R\SpeedWall\01 Data\1450096020_location.csv" type="V_String" />
+            <Field name="course" size="254" source="File: C:\Users\daniele.parenti\Dropbox\R\SpeedWall\01 Data\1450096020_location.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\daniele.parenti\Dropbox\R\SpeedWall\01 Data\1450096020_motion.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>1450096020_motion.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="timestamp" size="254" source="File: C:\Users\daniele.parenti\Dropbox\R\SpeedWall\01 Data\1450096020_motion.csv" type="V_String" />
+            <Field name="x" size="254" source="File: C:\Users\daniele.parenti\Dropbox\R\SpeedWall\01 Data\1450096020_motion.csv" type="V_String" />
+            <Field name="y" size="254" source="File: C:\Users\daniele.parenti\Dropbox\R\SpeedWall\01 Data\1450096020_motion.csv" type="V_String" />
+            <Field name="z" size="254" source="File: C:\Users\daniele.parenti\Dropbox\R\SpeedWall\01 Data\1450096020_motion.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>PrepareData</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

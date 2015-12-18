@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1450461317763.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "85F21865",
+    "lastKnownWriteTime" : 7011605692497750387,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "fec8nj3hor",
+        "caption" : "motion",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=motion&cache_key=fec8nj3hor",
+        "displayedObservations" : 13093,
+        "environment" : "",
+        "object" : "motion",
+        "totalObservations" : 13093,
+        "variables" : 4
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
