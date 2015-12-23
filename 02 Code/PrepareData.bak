@@ -223,7 +223,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\DANIEL~1.PAR\AppData\Local\Temp\Engine_10088_126afe23082d42c592404fcd850e829f_\Engine_8396_66636b9ac1bd4fb9abc5a0389cba4414_.yxdb</TempFile>
+          <TempFile>C:\Users\DANIEL~1.PAR\AppData\Local\Temp\Engine_3940_99eea41d45d54338af2303e720a806dc_\Engine_8396_8351714c5a604541ab2f7de4cfd30942_.yxdb</TempFile>
           <Layout>
             <View1>
               <Hints>
@@ -266,7 +266,7 @@ redTime=ToString([Time],0)</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\DANIEL~1.PAR\AppData\Local\Temp\Engine_10088_126afe23082d42c592404fcd850e829f_\Engine_8396_f240b3aeadd14f7987e7477ee1ec2309_.yxdb</TempFile>
+          <TempFile>C:\Users\DANIEL~1.PAR\AppData\Local\Temp\Engine_3940_99eea41d45d54338af2303e720a806dc_\Engine_8396_0bbdefa912aa42a495531312c1d424a9_.yxdb</TempFile>
           <Layout>
             <View1>
               <Hints>
@@ -378,7 +378,7 @@ redTime=ToString([Time], 0)</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\DANIEL~1.PAR\AppData\Local\Temp\Engine_10088_126afe23082d42c592404fcd850e829f_\Engine_8396_65217d97428640929fbcd4bfe90588ed_.yxdb</TempFile>
+          <TempFile>C:\Users\DANIEL~1.PAR\AppData\Local\Temp\Engine_3940_99eea41d45d54338af2303e720a806dc_\Engine_8396_0b169c7eefcc4819b81be196b5eed5a5_.yxdb</TempFile>
           <Layout>
             <View1>
               <Hints>
@@ -422,7 +422,7 @@ redTime=ToString([Time], 0)</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\DANIEL~1.PAR\AppData\Local\Temp\Engine_10088_126afe23082d42c592404fcd850e829f_\Engine_8396_b6318d26a7994473b55f3ced8218f6d9_.yxdb</TempFile>
+          <TempFile>C:\Users\DANIEL~1.PAR\AppData\Local\Temp\Engine_3940_99eea41d45d54338af2303e720a806dc_\Engine_8396_381b4a7a97084544b8a7643acb217f89_.yxdb</TempFile>
           <Layout>
             <View1>
               <Hints>
@@ -489,7 +489,7 @@ redTime=ToString([Time], 0)</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\DANIEL~1.PAR\AppData\Local\Temp\Engine_10088_126afe23082d42c592404fcd850e829f_\Engine_8396_b202a0fedeb243d193a8e0c3b989f315_.yxdb</TempFile>
+          <TempFile>C:\Users\DANIEL~1.PAR\AppData\Local\Temp\Engine_3940_99eea41d45d54338af2303e720a806dc_\Engine_8396_1c2991a8245646109aa73b6c07101ca5_.yxdb</TempFile>
           <Layout>
             <View1>
               <Hints>
@@ -543,54 +543,6 @@ redTime=ToString([Time], 0)</DefaultAnnotationText>
         </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-    </Node>
-    <Node ToolID="27">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="978" y="222" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <File MaxRecords="" FileFormat="0">C:\Users\daniele.parenti\Dropbox\R\SpeedWall\01 Data\mergedGPS.csv</File>
-          <Passwords />
-          <FormatSpecificOptions>
-            <LineEndStyle>CRLF</LineEndStyle>
-            <Delimeter>,</Delimeter>
-            <ForceQuotes>False</ForceQuotes>
-            <HeaderRow>True</HeaderRow>
-            <CodePage>28591</CodePage>
-          </FormatSpecificOptions>
-          <MultiFile value="False" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>mergedGPS.csv</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
-    </Node>
-    <Node ToolID="28">
-      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="954" y="330" width="184" height="40" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Text>http://www.gpsvisualizer.com/</Text>
-          <Font name="Segoe UI" size="8.25" style="0" />
-          <TextColor name="Black" />
-          <FillColor name="White" />
-          <Shape shape="0" />
-          <Justification Justification="4" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
     </Node>
   </Nodes>
   <Connections>
@@ -669,10 +621,6 @@ redTime=ToString([Time], 0)</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="25" Connection="Output" />
       <Destination ToolID="24" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="25" Connection="Output" />
-      <Destination ToolID="27" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="26" Connection="Output" />
