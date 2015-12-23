@@ -1,0 +1,18 @@
+{
+    "contents" : "# Reads in Speewall data\n\nsetwd(\"C:/Users/daniele.parenti/Dropbox/R/SpeedWall/02 Code\")\n\naltimeter<-read.csv('C:/Users/daniele.parenti/Dropbox/R/SpeedWall/01 Data/1450096020_altimeter.csv')\ngyroscope<-read.csv('C:/Users/daniele.parenti/Dropbox/R/SpeedWall/01 Data/1450096020_gyroscope.csv')\nlocation<-read.csv('C:/Users/daniele.parenti/Dropbox/R/SpeedWall/01 Data/1450096020_location.csv')\nmotion<-read.csv('C:/Users/daniele.parenti/Dropbox/R/SpeedWall/01 Data/1450096020_motion.csv')",
+    "created" : 1450459184861.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3057109942",
+    "id" : "A89A9B55",
+    "lastKnownWriteTime" : 1450461423,
+    "path" : "C:/Users/daniele.parenti/Dropbox/R/SpeedWall/02 Code/ReadData.R",
+    "project_path" : "ReadData.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
